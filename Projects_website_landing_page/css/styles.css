@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+  background: whitesmoke;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 0.8em;
+  margin: 0;
+}
+
+.small_logo {
+  width: 20%;
+  left: 0%;
+  position: fixed;
+  border-radius: 40px;
+  opacity: 0.5;
+}
+
+header {
+  z-index: 7;
+  position: fixed;
+}
+
+.small_links img {
+  width: 10%;
+  right: 0%;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+img:hover {
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px gray;
+  opacity: 1;
+}
+
+.small_logo:hover {
+  border-radius: 40px;
+  box-shadow: 1px 1px 1px gray;
+  opacity: 1;
+}
+
+.small_python {
+  left: 50%;
+  opacity: 0.2;
+  border-radius: 50%;
+}
+
+.small_html {
+  left: 70%;
+  opacity: 0.2;
+  border-radius: 50%;
+}
+
+.small_css {
+  left: 90%;
+  opacity: 0.2;
+  border-radius: 50%;
+}
+
+.spin {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 30%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 17%;
+}
+
+.square {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid black;
+  animation-name: rotating-square;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  background: black;
+}
+
+.square1 {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid red;
+  animation-name: rotating-square1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  background: red;
+}
+
+.square2 {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid green;
+  animation-name: rotating-square2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  background: green;
+}
+
+@keyframes rotating-square {
+  
+50% {
+  transform: rotate(135deg);
+  height: 2.5rem;
+  border-radius: 50%;
+}
+}
+
+@keyframes rotating-square1 {
+  
+50% {
+  transform: rotate(90deg);
+  height: 2.5rem;
+  border-radius: 50%;
+}
+}
+
+@keyframes rotating-square2 {
+
+50% {
+  transform: rotate(45deg);
+  height: 2.5rem;
+  border-radius: 50%;
+}
+}
+
+.large_links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+
+.large_links img {
+  margin: 10% auto;
+  width: 300px;
+}
+
+h1 {
+  font-size: 4.5em;
+  margin: 0;
+  padding: 5%;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.subhead {
+  font-size: 1.5em;
+  margin: 0 auto;
+  width: 70%;
+  background: goldenrod;
+  color: white;
+}
+
+.mid-container {
+  background: goldenrod;
+  border-radius: 40px;
+  margin: 0 auto;
+  padding: 5% 0 5% 0;
+}
+
+@media only screen and (min-width: 750px) {
+
+  .spin {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 30%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 20%;
+  }
+
+  .square {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid black;
+    animation-name: rotating-square;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  .square1 {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid red;
+    animation-name: rotating-square1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  .square2 {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid green;
+    animation-name: rotating-square2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+}
+
+@media only screen and (min-width: 900px) {
+
+  .small_links img {
+    width: 7.5%;
+    right: 0%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+  }
+
+  .small_logo {
+    width: 13%;
+    left: 0%;
+    position: fixed;
+  }
+
+}
+
+@media only screen and (min-width: 1185px) {
+
+  .spin {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 30%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 21%;
+  }
+
+  .square {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid black;
+    animation-name: rotating-square;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  .square1 {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid red;
+    animation-name: rotating-square1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  .square2 {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid green;
+    animation-name: rotating-square2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .subhead {
+    font-size: 1.5em;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 1185px) {
+
+  .spin {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 30%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 20%;
+  }
+
+  .square {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid black;
+    animation-name: rotating-square;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  .square1 {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid red;
+    animation-name: rotating-square1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  .square2 {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid green;
+    animation-name: rotating-square2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+}
+
+@media only screen and (min-width: 900px) {
+
+  .small_links img {
+    width: 7.5%;
+    right: 0%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+  }
+
+  .small_logo {
+    width: 13%;
+    left: 0%;
+    position: fixed;
+  }
+
+}
+
+@media only screen and (min-width: 1185px) {
+
+  .spin {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 30%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 19%;
+  }
+
+  .square {
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid black;
+    animation-name: rotating-square;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  .square1 {
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid red;
+    animation-name: rotating-square1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  .square2 {
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid green;
+    animation-name: rotating-square2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .mid-container {
+    background: goldenrod;
+    border-radius: 40px;
+    margin: 0 auto;
+    padding: 5% 0 5% 0;
+    width: 70%;
+  }
+
+}
+
+@media only screen and (min-width: 2560px) {
+
+.spin {
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 30%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 21%;
+}
+
+.square {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  border: 1px solid black;
+  animation-name: rotating-square;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.square1 {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  border: 1px solid red;
+  animation-name: rotating-square1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.square2 {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  border: 1px solid green;
+  animation-name: rotating-square2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+h1 {
+  font-size: 9em;
+  margin: 0;
+  padding: 10 auto;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.subhead {
+  font-size: 3em;
+  margin: 0 auto;
+  width: 70%;
+}
+
+
+}
