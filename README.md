@@ -1,7 +1,7 @@
 # My_Projects
 This repository contains my personal projects
 
-#Snake game
+# Snake game
 This is a python project started with a guide on how to make a game of snake on python.
 Through this I learnt how to use pygame and was able to make a basic version of snake
 To improve on the game I added a version of the game that have no walls as well as difficulty settings that control the snakes speed
